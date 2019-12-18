@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Register.RegisterPreferencesActivity"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="50dp"
+        android:textColor="#003366"
+        android:text="Who would you like to be matched with?"/>
+    <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/RadioGroup">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Men"
+                android:textSize="30dp"
+                android:textColor="#003366"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+                android:text="Women"
+                android:textColor="#003366"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+                android:text="Anyone"
+                android:textColor="#003366"/>
+        </RadioGroup>
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="330dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".Register.RegisterPreferencesActivity"
+        android:orientation="horizontal">
+<!--        <Button-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:onClick="backtoGender"-->
+<!--            android:text="Back"-->
+<!--            android:backgroundTint="#003366"-->
+<!--            android:textColor="#FFFFFF"/>-->
+<!--        <TextView-->
+<!--            android:layout_width="215dp"-->
+<!--            android:layout_height="0dp"/>-->
+        <Button
+            android:id="@+id/register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Register"
+            android:backgroundTint="#003366"
+            android:textColor="#FFFFFF"/>
+
+
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

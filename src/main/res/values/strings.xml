@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">YSwipe</string>
+    <string-array name="college_array">
+        <item>Residential College</item>
+        <item>Benjamin Franklin</item>
+        <item>Berkeley</item>
+        <item>Branford</item>
+        <item>Davenport</item>
+        <item>Ezra Stiles</item>
+        <item>Grace Hopper</item>
+        <item>Jonathon Edwards</item>
+        <item>Morse</item>
+        <item>Pauli Murray</item>
+        <item>Pierson</item>
+        <item>Saybrook</item>
+        <item>Silliman</item>
+        <item>Timothy Dwight</item>
+        <item>Trumbull</item>
+    </string-array>
+    <string-array name="year_array">
+        <item>Graduating Class</item>
+        <item>Class of 2020</item>
+        <item>Class of 2021</item>
+        <item>Class of 2022</item>
+        <item>Class of 2023</item>
+        <item>Class of 2024</item>
+        <item>Class of 2025</item>
+        <item>Class of 2026</item>
+        <item>Class of 2027</item>
+        <item>Class of 2028</item>
+        <item>Class of 2029</item>
+        <item>Class of 2030</item>
+    </string-array>
+
+</resources>

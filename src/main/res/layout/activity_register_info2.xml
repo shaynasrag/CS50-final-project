@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Register.RegisterInfo"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tell us a little more about you"
+        android:textAlignment="center"
+        android:textSize="40dp"
+        android:textColor="#003366"/>
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Name"
+        android:textSize="25dp"/>
+    <Spinner
+        android:id="@+id/resCollegeSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:entries="@array/college_array">
+    </Spinner>
+    <Spinner
+        android:id="@+id/gradYearSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:entries="@array/year_array">
+    </Spinner>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonToGender"
+        android:text="Next"
+        android:backgroundTint="#003366"
+        android:textColor="#FFFFFF"
+        android:onClick="toGender"
+        />
+
+
+</LinearLayout>
